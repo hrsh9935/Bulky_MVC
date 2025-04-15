@@ -20,3 +20,33 @@ html {
 body {
   margin-bottom: 60px;
 }
+/* Table Header Styling */
+.table th {
+    background-color: #343a40; /* Dark background for the header */
+    color: #ffffff; /* White text for contrast */
+    text-align: left;
+    padding: 15px;
+}
+
+/* Table Row Styling */
+.table tr:nth-child(odd) td {
+    background-color: #f8f9fa; /* Light gray for odd rows */
+}
+
+.table tr:nth-child(even) td {
+    background-color: #ffffff; /* White for even rows */
+}
+
+/* Optional: Add Hover Effect for Rows */
+.table tbody tr:hover {
+    background-color: #e9ecef; /* Slightly darker gray on hover */
+}
+
+/* Ensure Table Borders Look Clean */
+.table {
+    border-collapse: collapse;
+}
+
+    .table td, .table th {
+        border: 1px solid #dee2e6; /* Light border color */
+    }
